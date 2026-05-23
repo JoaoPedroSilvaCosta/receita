@@ -49,11 +49,11 @@ p {
     padding: 28px;
     border-radius: 12px;
     margin-bottom: 32px;
+}
 
-    
-    .tempo h2 {
+.tempo h2 {
         font-size: 20px;
-        font-weight: 600px;
+        font-weight: 600;
         line-height: 100%;
         font-family: 'Outfit', sans-serif;
         color:#7a284e;
@@ -77,4 +77,21 @@ ol, ul {
 .tempo li::marker {
     color: #7a284e;
     font-size: 12px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #454632;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.ingredientes li::marker {
+    font-size: 12px;
+    color: #854632;
+}
+
+hr {
+    border: 1px solid #e3ddd7;
+    margin-block: 32px;
 }
